@@ -1,0 +1,5 @@
+>DatabaseName = my_store
+
+>Wp-Admin (SignIn)
+    Username ` admin
+    Password ` admin
