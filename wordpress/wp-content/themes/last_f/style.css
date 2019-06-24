@@ -1,0 +1,371 @@
+/*
+Theme Name: last_f
+Author: Narek Ghazaryan
+Description: This is a theme for Online Web Market
+Version: 1.0
+*/
+
+
+
+/*
+.site-header , .searchform{
+    display: inline-block;
+    margin: 10px;
+}
+.site-header a{
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    font-size:45px;
+    border-radius: 10px;
+}
+.site-header a:hover{
+    border-bottom: 5px solid white;
+}
+*/
+/*
+.site-name{
+    
+    border: 2px solid #172030;
+    background-color: #172030;
+    color:grey;
+    }
+*/
+
+.header-logo-search img{
+    width: 300px;
+    margin: 30px;
+    
+}
+.header-logo-search{
+    height: 205px;
+}
+
+.logo-2nd{
+    margin-right: 20px;
+}
+
+.logo-2nd img:hover{
+    border-bottom:1px solid black;
+    border-radius: 10px;
+}
+
+
+
+.site-name h1:hover{
+    color: black;
+    
+}
+
+
+.search-form{
+    margin-left: 75%;
+       
+}
+head {
+    background-color: #172030;
+}
+
+p,h1{
+    margin: 18px;
+}
+
+.article-news{
+    border:3px solid #172030;
+    border-radius: 12px;
+}
+
+.as{
+    border:0.5px solid #172030;
+    border-radius: 10px;
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.search-res{
+    color: grey;
+    background-color: #172030;
+    padding: 15px;
+    margin: 10px;
+    width: 600px;
+}
+
+.search-res a{
+    text-decoration: none;
+    color: black;
+
+}
+.search-res:hover{
+    color: white;
+    background-color: grey;
+
+}
+
+
+input[type="button"]{
+    background-color: #F3F3F3;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: grey;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+input[type="submit"]{
+    background-color: black;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+
+
+input + button,
+input + input[type="button"],
+input + input[type="submit"] {
+    padding: 0.75em 2em;
+}
+
+input[type="text"]{
+    background-color: white;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.5em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: red;
+}
+
+
+.ncf{
+    font-size: 40px;
+
+}
+
+
+
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #000000;
+}
+
+.main-menu li {
+    float: left;
+}
+
+.main-menu li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-menu li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.main-menu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+
+.post-class{
+	float: left;
+	padding: 10px;
+	margin: auto;
+}
+
+
+.footer{
+	margin-top: 0%;
+    background: #172030;
+    border-top: 3px solid red;
+    margin: 0px;
+
+}
+
+
+
+.vertical-menu {
+    width:200px;
+    display: inline-block;
+
+}
+
+.vertical-menu a {
+    border-right: 2px solid black;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.vertical-menu a:hover {
+    color: grey;
+    border:2px solid black;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu ul{
+        list-style-type: none;
+
+}
+
+
+
+.main-menu-f{
+    margin: 20px;
+    display: inline-block;
+}
+
+
+.main-menu-f  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    width: 100px;
+    
+}
+
+.main-menu-f  li {
+    float: left;
+}
+
+.main-menu-f  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-menu-f li a:hover:not(.active) {
+    color: blue;
+}
+
+.main-menu-f  li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+
+
+
+
+
+
+.container{
+    min-height: 800px;
+}
+
+
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+.logo{
+    width: 100px;
+    margin: 15px;
+}
+
+
+
+.contact-content{
+    background-color: grey;
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
